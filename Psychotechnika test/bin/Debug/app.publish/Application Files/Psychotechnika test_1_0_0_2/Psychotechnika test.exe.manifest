@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Psychotechnika test.exe" version="1.0.0.2" publicKeyToken="527026b19ec69487" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Psychotechnika test" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Psychotechnika test.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Opcje manifestu Kontroli konta użytkownika
+             Jeśli chcesz zmienić poziom Kontroli konta użytkownika systemu Windows, zastąp 
+             węzeł requestedExecutionLevel jednym z następujących.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Określenie elementu requestedExecutionLevel spowoduje wyłączenie wirtualizacji plików i rejestru. 
+            Usuń ten element, jeśli aplikacja wymaga wirtualizacji w celu zachowania
+            zgodności z poprzednimi wersjami.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Psychotechnika test.exe" size="430080">
+      <assemblyIdentity name="Psychotechnika test" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Wc/R9iMOtPLa4ze4DdVCkXSizZ5wo7M6+wb1jjXUEf4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Psychotechnika test.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Lista wersji systemu Windows, na których ta aplikacja została przetestowana
+           i dla których została zaprojektowana. Odkomentuj odpowiednie elementy, a system Windows
+           automatycznie wybierze najbardziej zgodne środowisko. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Karski-Komputer\Karski" issuerKeyHash="7939cb0cda229c2138fa8ad6b5cb0bcfa8dff2f0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NFI+3Poe7vWv4UW4xDtgtEx6bhi9ke/ZhMNZIZnZK/8=</DigestValue></Reference></SignedInfo><SignatureValue>kQ4zuUnatDEwh/ZDKAStGEm+misGdpjgWSO2diL/R3G2v8EAIRA14xbAtlnsHva4cg6XEYvPw7YUzrKcaObfRxDifKvD5szY6a4NLeb4Kh14wSwuZvfMkdZpwEmOtzs7JbrraW0tiGbwW89U4h9KP5i3DRalwIQVyJCVt+hJ50k=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tSeKsfaYtPy2kEodHf/xVJJdqhjfRjJPSZzAj5SFdJ1ybn4lzsUj90uDuFyh6ao9YnwjrXSa2RuZHqVn+gO0IlEH/ARGJCiW/UBwBuBYyUXjC+46X+NFWZqmQH4gGb9a6wHy+/W+NGDJ1ToMf65euCI8OiSIQG1diF6bgX8VzR0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ff2bd9992159c384d9ef91bd186e7a4cb4603bc4b845e1aff5ee1efadc3e5234" Description="" Url=""><as:assemblyIdentity name="Psychotechnika test.exe" version="1.0.0.2" publicKeyToken="527026b19ec69487" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Karski-Komputer\Karski</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GMFhETB5TP3yk+Fs5iRBJg0SYs2nV18KrdXVuWtcJCw=</DigestValue></Reference></SignedInfo><SignatureValue>QDaE71D69PnyqrP01BCZjru5WV8/P5dI36/mbWtgKoIM2s/fgu5DxpYPGHCuZFFevA0WTsKdBsf0RVP1ism3p64i/QEgqpelVyOea/qBKA1cNDhKyEr/LoPEgtqGdBYXYteFMCdL0BamTaYEAftmXRDFG/EqmkQJYhxNCzuVuvI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tSeKsfaYtPy2kEodHf/xVJJdqhjfRjJPSZzAj5SFdJ1ybn4lzsUj90uDuFyh6ao9YnwjrXSa2RuZHqVn+gO0IlEH/ARGJCiW/UBwBuBYyUXjC+46X+NFWZqmQH4gGb9a6wHy+/W+NGDJ1ToMf65euCI8OiSIQG1diF6bgX8VzR0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQFN6FoiV4pKhPzmQN3v1RQzANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwASwBhAHIAcwBrAGkALQBLAG8AbQBwAHUAdABlAHIAXABLAGEAcgBzAGsAaTAeFw0yMTA0MzAxMzE0NTNaFw0yMjA0MzAxOTE0NTNaMDcxNTAzBgNVBAMeLABLAGEAcgBzAGsAaQAtAEsAbwBtAHAAdQB0AGUAcgBcAEsAYQByAHMAawBpMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC1J4qx9pi0/LaQSh0d//FUkl2qGN9GMk9JnMCPlIV0nXJufiXOxSP3S4O4XKHpqj1ifCOtdJrZG5kepWf6A7QiUQf8BEYkKJb9QHAG4FjJReML7jpf40VZmqZAfiAZv1rrAfL79b40YMnVOgx/rl64Ijw6JIhAbV2IXpuBfxXNHQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGt9t9qFWQZiFJnqFx1HJvpK+1cNpPqLcqqA0NNT6XuljCRJNhhYJBXE0WKWyy3YCIWNGDhNsfUIKcaG42fdDDP4Wql7K1HqjryHRlREXEz0pOwjNzaf1kCj9IpYP259dohY5/sNB/enoTtUXSfxFK8+wYm5K4gDrzaOvLWTusB5</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,17 @@
+D:\Microsoft Visual Studio\Projekty\Psychotechnika test\Psychotechnika test\bin\Debug\Psychotechnika test.exe.config
+D:\Microsoft Visual Studio\Projekty\Psychotechnika test\Psychotechnika test\bin\Debug\Psychotechnika test.exe
+D:\Microsoft Visual Studio\Projekty\Psychotechnika test\Psychotechnika test\bin\Debug\Psychotechnika test.pdb
+D:\Microsoft Visual Studio\Projekty\Psychotechnika test\Psychotechnika test\bin\Debug\Psychotechnika test.xml
+D:\Microsoft Visual Studio\Projekty\Psychotechnika test\Psychotechnika test\obj\Debug\Psychotechnika test.vbprojAssemblyReference.cache
+D:\Microsoft Visual Studio\Projekty\Psychotechnika test\Psychotechnika test\obj\Debug\Psychotechnika_test.Form1.resources
+D:\Microsoft Visual Studio\Projekty\Psychotechnika test\Psychotechnika test\obj\Debug\Psychotechnika_test.Resources.resources
+D:\Microsoft Visual Studio\Projekty\Psychotechnika test\Psychotechnika test\obj\Debug\Psychotechnika test.vbproj.GenerateResource.cache
+D:\Microsoft Visual Studio\Projekty\Psychotechnika test\Psychotechnika test\obj\Debug\Psychotechnika test.vbproj.CoreCompileInputs.cache
+D:\Microsoft Visual Studio\Projekty\Psychotechnika test\Psychotechnika test\obj\Debug\Psychotechnika test.exe
+D:\Microsoft Visual Studio\Projekty\Psychotechnika test\Psychotechnika test\obj\Debug\Psychotechnika test.xml
+D:\Microsoft Visual Studio\Projekty\Psychotechnika test\Psychotechnika test\obj\Debug\Psychotechnika test.pdb
+D:\Microsoft Visual Studio\Projekty\Psychotechnika test\Psychotechnika test\bin\Debug\Psychotechnika test.exe.manifest
+D:\Microsoft Visual Studio\Projekty\Psychotechnika test\Psychotechnika test\bin\Debug\Psychotechnika test.application
+D:\Microsoft Visual Studio\Projekty\Psychotechnika test\Psychotechnika test\obj\Debug\Psychotechnika test.TrustInfo.xml
+D:\Microsoft Visual Studio\Projekty\Psychotechnika test\Psychotechnika test\obj\Debug\Psychotechnika test.exe.manifest
+D:\Microsoft Visual Studio\Projekty\Psychotechnika test\Psychotechnika test\obj\Debug\Psychotechnika test.application
