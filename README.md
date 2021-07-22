@@ -1,0 +1,1 @@
+# Psychotechnika-test
